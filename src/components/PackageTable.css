@@ -1,0 +1,143 @@
+.app-content {
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.package-table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+td,
+th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th:first-child {
+  border-top-left-radius: 10px;
+}
+
+th:last-child {
+  border-top-right-radius: 10px;
+}
+
+.package-table-container {
+  font-family: Arial, sans-serif;
+  width: 100%;
+}
+
+.package-table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+td,
+th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4caf50;
+  color: white;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.pagination-button {
+  color: black;
+  padding: 8px 16px;
+  text-decoration: none;
+  border: 1px solid #ddd;
+  cursor: pointer;
+}
+
+.pagination-button.active {
+  background-color: #4caf50;
+  color: white;
+  border: 1px solid #4caf50;
+}
+
+.pagination-button:hover:not(.active) {
+  background-color: #ddd;
+}
+
+.details-button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 5px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.details-button:hover {
+  background-color: #45a049;
+}
+
+@media screen and (max-width: 600px) {
+  .pagination-button {
+    display: none;
+  }
+}
+
+/* ...previous CSS rules... */
+
+/* ...previous CSS rules... */
+
+.latest,
+.out-of-date {
+  border: none;
+  padding: 5px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  border-radius: 4px;
+}
+
+.latest {
+  background-color: #4caf50;
+  color: white;
+}
+
+.out-of-date {
+  background-color: red;
+  color: white;
+}
+
+/* New rule */
+.version-td {
+  vertical-align: middle;
+  line-height: normal;
+}
